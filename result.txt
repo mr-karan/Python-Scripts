@@ -1,0 +1,425 @@
+Roll No:
+ 1600001
+
+
+Name:
+ AAKANKSHA MAHNOT
+
+
+Mother's Name:
+ SEEMA MAHNOT
+
+
+Father's Name:
+SURESH MAHNOT
+
+
+
+
+
+
+SUB CODE
+SUB NAME
+THEORY 
+PRACTICAL 
+MARKS
+GRADE
+
+
+ 301
+ENGLISH CORE
+073
+
+073    
+C1
+
+
+030
+ECONOMICS
+076
+
+076    
+B1
+
+
+041
+MATHEMATICS
+048
+
+048    
+C2
+
+
+054
+BUSINESS STUDIES
+075
+019
+094    
+A2
+
+
+055
+ACCOUNTANCY
+069
+018
+087    
+A2
+
+
+500
+WORK EXPERIENCE
+ 
+ 
+---
+A1
+
+
+502
+PHY & HEALTH EDUCA
+ 
+ 
+---
+A1
+
+
+503
+GENERAL STUDIES
+ 
+ 
+---
+A2
+
+
+  Additional Subject
+
+
+048 
+PHYSICAL EDUCATION
+063
+028
+091     
+A1
+
+
+ 
+Result:   PASS
+    
+   Roll No:
+ 1600002
+
+
+Name:
+ AVI SALECHA
+
+
+Mother's Name:
+ ANITA SALECHA
+
+
+Father's Name:
+VIKRANT SALECHA
+
+
+
+
+
+
+SUB CODE
+SUB NAME
+THEORY 
+PRACTICAL 
+MARKS
+GRADE
+
+
+ 301
+ENGLISH CORE
+090
+
+090    
+A2
+
+
+030
+ECONOMICS
+057
+
+057    
+C1
+
+
+041
+MATHEMATICS
+033
+
+033    
+D2
+
+
+054
+BUSINESS STUDIES
+059
+016
+075    
+B2
+
+
+055
+ACCOUNTANCY
+063
+020
+083    
+A2
+
+
+500
+WORK EXPERIENCE
+ 
+ 
+---
+A1
+
+
+502
+PHY & HEALTH EDUCA
+ 
+ 
+---
+A1
+
+
+503
+GENERAL STUDIES
+ 
+ 
+---
+A1
+
+
+  Additional Subject
+
+
+048 
+PHYSICAL EDUCATION
+057
+027
+084     
+A2
+
+
+ 
+Result:   PASS
+    
+   Roll No:
+ 1600003
+
+
+Name:
+ CHAITALI KATHROTIYA
+
+
+Mother's Name:
+ BHAVANABEN V KATHROTIYA
+
+
+Father's Name:
+VINUBHAI D KATHROTIYA
+
+
+
+
+
+
+SUB CODE
+SUB NAME
+THEORY 
+PRACTICAL 
+MARKS
+GRADE
+
+
+ 301
+ENGLISH CORE
+065
+
+065    
+C2
+
+
+030
+ECONOMICS
+070
+
+070    
+B1
+
+
+041
+MATHEMATICS
+049
+
+049    
+C2
+
+
+054
+BUSINESS STUDIES
+067
+018
+085    
+B1
+
+
+055
+ACCOUNTANCY
+065
+017
+082    
+B1
+
+
+500
+WORK EXPERIENCE
+ 
+ 
+---
+A2
+
+
+502
+PHY & HEALTH EDUCA
+ 
+ 
+---
+A1
+
+
+503
+GENERAL STUDIES
+ 
+ 
+---
+B1
+
+
+  Additional Subject
+
+
+048 
+PHYSICAL EDUCATION
+064
+028
+092     
+A1
+
+
+ 
+Result:   PASS
+    
+   Roll No:
+ 1600004
+
+
+Name:
+ DIYA MISTRY
+
+
+Mother's Name:
+ MONA MISTRY
+
+
+Father's Name:
+BHARAT MISTRY
+
+
+
+
+
+
+SUB CODE
+SUB NAME
+THEORY 
+PRACTICAL 
+MARKS
+GRADE
+
+
+ 301
+ENGLISH CORE
+077
+
+077    
+B2
+
+
+030
+ECONOMICS
+056
+
+056    
+C1
+
+
+041
+MATHEMATICS
+048
+
+048    
+C2
+
+
+054
+BUSINESS STUDIES
+068
+016
+084    
+B1
+
+
+055
+ACCOUNTANCY
+033
+017
+050    
+D1
+
+
+500
+WORK EXPERIENCE
+ 
+ 
+---
+A1
+
+
+502
+PHY & HEALTH EDUCA
+ 
+ 
+---
+A1
+
+
+503
+GENERAL STUDIES
+ 
+ 
+---
+A2
+
+
+  Additional Subject
+
+
+048 
+PHYSICAL EDUCATION
+061
+029
+090     
+A1
+
+
+ 
+Result:   PASS
+    
+   

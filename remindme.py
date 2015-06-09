@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 import subprocess
 import datetime
 import time
@@ -16,5 +19,5 @@ while True:
 
 	subprocess.Popen(['notify-send', message])	#notify-send is called to send a notification to desktop.
 
-	time.sleep(3600*4) #Sleep For 4 Hours.
+	time.sleep(5) #Sleep For 4 Hours.
 
