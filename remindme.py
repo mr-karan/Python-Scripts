@@ -1,23 +1,15 @@
-#!/usr/bin/env python
-
-
 import subprocess
 import datetime
 import time
 
 while True:
-	tomorrow = datetime.datetime.replace(datetime.datetime.now() + datetime.timedelta(days=1), hour=0, minute=0, second=0)
-	#Tomorrow Date , with time set as 00:00:00 
+    tomorrow = datetime.datetime.replace(datetime.datetime.now() + datetime.timedelta(days=1), hour=0, minute=0, second=0)
+    now = datetime.datetime.now()
 
-	now = datetime.datetime.now()	#Present Time
+    left = tomorrow - now
 
-	counter = time.strftime("%d")  	#day of month
+    message = "Github Commit Streak Day Time Left for today %s :" % (left)
 
-	left = tomorrow - now		#Time left until next day 00:00:00
+    subprocess.Popen(['notify-send', message])
 
-	message = "Github Commit Streak.Day : %s \n Time Left for today %s :" % (counter, left)
-
-	subprocess.Popen(['notify-send', message])	#notify-send is called to send a notification to desktop.
-
-	time.sleep(5) #Sleep For 4 Hours.
-
+    time.sleep(14400)
