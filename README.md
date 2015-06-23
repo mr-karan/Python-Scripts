@@ -9,3 +9,5 @@ I am doing a 30 days github commit streak to make coding a habit.For that I wrot
 
 
 02 : Phone Number and Email Address Extractor
+
+03: Made a bot which automatically plays 2048 Game. http://gabrielecirulli.github.io/2048/ 
