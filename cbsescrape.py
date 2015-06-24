@@ -1,14 +1,18 @@
 import re
 from mechanize import Browser
 from bs4 import BeautifulSoup
+import csv
 
 def parsedata(content):
 	soup=BeautifulSoup(content)
-	text=soup.get_text()
-	begin = text.index('Roll')
-	end = text.index('Check')
-	return text[begin:end].encode('UTF-8').strip()
-
+	result=soup.find("table",border=1)
+	rows=result.find_all('tr')
+	with open('result.csv','w') as f:
+		csvwriter = csv.writer(f)
+		for row in rows:
+			cells = [c.text.encode('utf-8') for c in row.findAll('td')]
+			print cells
+			csvwriter.writerow(cells)
 
 def submitmethod(roll):
 	br = Browser()
@@ -20,12 +24,15 @@ def submitmethod(roll):
 	return parsedata(content)
 
 def main():
-	results = [submitmethod(num) for num in range(1600001,1600005)]
-	f = open('result.txt', 'w')
+	for i in range():
+		submitmethod(i)
+
+	#print
+	'''f = open('result.txt', 'w')
 	for i in results:
 		f.write(i)
 	f.close()
-
+	'''
 if __name__ == '__main__':
 	main()
 
