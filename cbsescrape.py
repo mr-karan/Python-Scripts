@@ -7,12 +7,29 @@ def parsedata(content):
 	soup=BeautifulSoup(content)
 	result=soup.find("table",border=1)
 	rows=result.find_all('tr')
-	with open('result.csv','w') as f:
+	subjectname=[]
+	markall=[]
+	with open('try.csv','a') as f:
 		csvwriter = csv.writer(f)
-		for row in rows:
-			cells = [c.text.encode('utf-8') for c in row.findAll('td')]
-			print cells
-			csvwriter.writerow(cells)
+		for row in rows[:9]:
+			col=row.findAll('td')
+			sub=col[1].text.encode('utf-8')
+			subjectname.append((sub))
+
+			marks=col[4].text.encode('utf-8')
+			markall.append((marks))
+
+			#print sub,marks
+		csvwriter.writerows([subjectname,])
+		csvwriter.writerows([markall,])
+
+
+
+			#subCode=col[1].text.encode('utf-8')
+			#subCode=
+			#cells = [c.text.encode('utf-8') for c in row.findAll('td')]
+			#print cells
+			#csvwriter.writerow(cells)
 
 def submitmethod(roll):
 	br = Browser()
@@ -24,7 +41,8 @@ def submitmethod(roll):
 	return parsedata(content)
 
 def main():
-	for i in range():
+	for i in range(1600001,1600100):
+		print "AT Roll %d"%i
 		submitmethod(i)
 
 	#print
