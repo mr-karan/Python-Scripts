@@ -13,3 +13,5 @@ I am doing a 30 days github commit streak to make coding a habit.For that I wrot
 03: Made a bot which automatically plays 2048 Game. http://gabrielecirulli.github.io/2048/ 
 
 04 : Downloads XKCD comic strips
+
+05 : Wrote a scraper which fetches results from CBSE website (Class 12th results : 2015)
