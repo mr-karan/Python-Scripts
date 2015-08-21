@@ -2,13 +2,13 @@
 
 from collections import defaultdict
 
-d=defaultdict(list) # defaultdict(<class 'list'>)
+d=defaultdict(int) # defaultdict(<class 'int'>)
 
 word=input()
 
 # eg word is Mississippi
 
-for k in word:
-    d[k] +=1
+for letter in word:
+    d[letter] +=1
 
-print(d.items())
+print(list(d.items()))
