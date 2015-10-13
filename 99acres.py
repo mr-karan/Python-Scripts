@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 from bs4 import BeautifulSoup,SoupStrainer
+import csv
 
 browser = webdriver.Firefox()
 '''
@@ -51,24 +52,38 @@ a={}
 a[name]=mobile
 print(name)
 print(mobile)
-for i in viewphonearr[:6]:
+'''
+count=len(viewphonearr)
+for i in viewphonearr:
     print('waiting 5 seconds')
     time.sleep(5)
     i.send_keys(Keys.RETURN)
-    print('waiting 10seconds')
-    time.sleep(10)
-'''
+    print('waiting 5seconds')
+    time.sleep(5)
+    print(count)
+    count=count-1
+
 
 html = browser.page_source
 relData = SoupStrainer('div',{'id': 'lgndiv'})
 soup=BeautifulSoup(html,"lxml",parse_only=relData)
-print(soup.prettify())
-
-
+#print(soup.prettify())
+result={}
+list_name=[]
+list_mobile=[]
+name=''
+phone=''
+#print(soup.findAll('td'))
 for tag in soup.findAll('td'):
     if tag.text.strip("\n").strip(' ').strip("\n")== 'Name :':
-        inter=tag.find_next_sibling()
-        list_name.append(inter.text.strip("\n").strip(' ').strip("\n"))
+        name=tag.find_next_sibling().text.strip("\n").strip(' ').strip("\n")
+        list_name.append(name)
     if tag.text.strip("\n").strip(' ').strip("\n")== 'Mobile :':
-        inter=tag.find_next_sibling()
-        list_mobile.append(inter.text.strip("\n").strip(' ').strip("\n"))
+        phone=tag.find_next_sibling().text.strip("\n").strip(' ').strip("\n")
+        list_mobile.append(phone)
+    result[name]=phone
+
+
+writer = csv.writer(open('visual.csv', 'a'))
+for key, value in result.items():
+    writer.writerow([key, value])
